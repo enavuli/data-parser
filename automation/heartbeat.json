@@ -1,0 +1,30 @@
+{
+  "serviceName": "data-parser",
+  "status": "UP",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "UP",
+      "responseTime": 25
+    },
+    "messageQueue": {
+      "status": "UP",
+      "queueSize": 100
+    }
+  },
+  "metrics": {
+    "cpuUsage": 0.75,
+    "memoryUsage": 0.6,
+    "activeThreads": 10
+  },
+  "buildInfo": {
+    "commitHash": "a1b2c3d4e5f6",
+    "buildDate": "2024-10-26T18:00:00Z"
+  },
+  "customProperties": {
+    "environment": "production",
+    "dataIngestionRate": 1200,
+    "description": "Heartbeat data for the data-parser service"
+  }
+}
